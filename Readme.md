@@ -1,1 +1,1 @@
-Repositorio para exercicios de algoritmos
+# Repositório para exercícios de algoritmos.
