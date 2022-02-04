@@ -10,6 +10,8 @@ Inicio
       leia(X)
       leia(Y)
       
+      //Estrutura para trocar o valor das variaveis X e Y,
+      //e fazer a soma das variáveis de ordem Decrescente.
       se X > Y entao
          troca <- X
          X <- Y
