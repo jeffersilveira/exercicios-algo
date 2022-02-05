@@ -10,14 +10,16 @@ Inicio
       leia(X)
       leia(Y)
       
-      //Estrutura para trocar o valor das variaveis X e Y,
-      //e fazer a soma das variáveis de ordem Decrescente.
+      //Estrutura para trocar o valor das variaveis X e Y quando
+      //Decrescente e fazer a soma das variáveis de ordem Crescente.
       se X > Y entao
          troca <- X
          X <- Y
          Y <- troca
       fimse
       
+      //Laço com a condição de x+1 ate y-1 para tirar da soma os valores
+      // das extremidades da lista.
       soma <- 0
       para i de x+1 ate y-1 faca
            se i % 2 <> 0 entao
